@@ -28,7 +28,7 @@
 
 }
 
-.sitesIEEE{ /*ul*/
+.sites{ /*ul*/
   display: block;
   list-style: none;
   width: 825px;
@@ -43,13 +43,13 @@
      inset 0 0 1px rgba(255, 255, 255, 0.6);
 
 }
-.sitesIEEE li{ /*li*/
+.sites li{ /*li*/
   position: relative;
   display: inline-block;
 
 }
 
-.sitesIEEE li > a{
+.sites li > a{
   padding: 5px 30px 5px 1px;
   display: block;
   color: black;
@@ -57,13 +57,13 @@
   text-decoration: none;
 }
 
-.sitesIEEE li a:hover{
+.sites li a:hover{
   color: #68f200;
   transition: all .3s;
 }
 
 .navegacion{
-  width: 900px;
+  width: 800px;
   margin: 30px auto;
   background: white;
 }
