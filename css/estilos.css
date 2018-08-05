@@ -63,7 +63,7 @@
 }
 
 .navegacion{
-  width: 265px;
+  width: 800px;
   margin: 30px auto;
   background: white;
 }
@@ -93,10 +93,18 @@
   transition: all .4s;
 }
 
-.submenu1,.submenu2{
+.submenu1{
   position: absolute;
   background: #333333;
-  width: 120%;
+  width: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.1s;
+}
+.submenu2{
+  position: absolute;
+  background: #333333;
+  width: 115%;
   visibility: hidden;
   opacity: 0;
   transition: opacity 1.1s;
@@ -203,6 +211,5 @@ a{
   width:40%;
   height: auto;
   margin-top: 70px;
-
 
 }
