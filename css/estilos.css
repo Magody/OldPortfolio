@@ -206,10 +206,10 @@ a{
 #presentacion video{
 
   border-left: 70px;
-  border: 2px solid white;
   float:left;
-  width:40%;
-  height: auto;
+  width:auto;
+  height: 350px;
+  border: 5px solid black;
   margin-top: 70px;
 
 }
