@@ -21,7 +21,7 @@ body{
 #logoRamaIEEE{
   position:absolute;
   top: 35px;
-
+  left: 10px;
 
 }
 
@@ -29,7 +29,7 @@ body{
   display: block;
   list-style: none;
   width: 100px;
-  margin: 0px 0px 0px 630px;
+  margin: auto;
 
   background: linear-gradient(90deg,
      rgba(255, 255, 255, 0) 0%,
@@ -202,12 +202,12 @@ a{
 
 #presentacion video{
 
-  border-left: 70px;
+  border-left: auto;
   float:left;
   width:auto;
-  height: 400;
+  height: auto;
   border: 5px solid black;
-  margin-top: 70px;
+  margin-top: auto;
 
 }
 
