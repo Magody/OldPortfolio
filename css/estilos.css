@@ -5,12 +5,8 @@
   box-sizing: border-box;
 }
 
-.main{
-  width: 1350px;
-  height: 610px;
+body{
   background-image:  url('../media/fondo_AI.jpg');
-  background-repeat: no-repeat;
-  background-size: 1350px 610px;
 }
 
 #logoEPN{
@@ -208,8 +204,17 @@ a{
   border-left: 70px;
   float:left;
   width:auto;
-  height: 350px;
+  height: 400;
   border: 5px solid black;
   margin-top: 70px;
 
 }
+
+#ser_ingeniero{
+	margin-top: 70px;
+	
+}
+
+
+
+
