@@ -92,7 +92,7 @@ body{
 
 .submenu1{
   position: absolute;
-  background: #333333;
+  background: #332223;
   width: 50%;
   visibility: hidden;
   opacity: 0;
@@ -117,11 +117,13 @@ body{
 
 .menu li:hover .submenu1{
   /*aparece cuando pasa el mouse*/
+  z-index: 1;
   visibility: visible;
   opacity: 1;
 }
 
 .submenu1 li:hover .submenu2{
+  z-index: 2;
   visibility: visible;
   opacity: 1;
 }
@@ -141,19 +143,14 @@ body{
   top: 0px;
 }
 
-#presentacion div{
-  padding: 100px;
-  float:left;
-  width:50%;
-  font-family: "Open sans";
-}
+
 
 .info_boton{
   margin: 20px auto;
   border: 2px solid green;
   color: white;
   background-color:black;
-  width:100px;
+  width:30%;
   height:30px;
   text-decoration: none;
   transform-style: preserve-3d;
@@ -166,7 +163,7 @@ body{
  position: absolute;
  background: #3a9999;
  border-radius: 5px;
- content: '¡Ir!';
+ content: '¡Clic para ver la presentación!';
  transform-origin: left bottom;
  transform: rotateX(90deg);
 }
@@ -182,6 +179,13 @@ body{
 
 a{
   text-decoration: none;
+}
+
+#presentacion div{
+  float:auto;
+  width:80%;
+  font-family: "Open sans";
+  border: 5px solid red;
 }
 
 #presentacion h1{
@@ -200,22 +204,22 @@ a{
   color: white;
 }
 
-#presentacion video{
-
-  border-left: auto;
-  float:left;
+#presentacion .video1{
+	
   width:auto;
   height: auto;
-  border: 5px solid black;
-  margin-top: auto;
-
+  border: 5px solid green;
+  z-index: 0;
 }
 
-#ser_ingeniero{
-	margin-top: 70px;
+#presentacion .video2{
 	
+  width:auto;
+  height: auto;
+  margin-bottom:100px;
+  border: 5px solid green;
+  z-index: 0;
 }
-
 
 
 

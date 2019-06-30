@@ -1,0 +1,14 @@
+.main{
+  
+  background-image:  url('../media/fondo_AI.jpg');
+  background-size: 1500px 900px;
+}
+
+
+#logoEPN{
+  position:relative;
+  width: 180px;
+  height: auto;
+  top: 30px;
+  left: 30px;
+}

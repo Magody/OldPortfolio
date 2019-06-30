@@ -1,0 +1,22 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image:  url('../media/fondo1.jpg');
+  background-repeat: repeat;
+}
+
+.textoPresentacion{
+	background-color: white;
+	text-align: center;
+	border: auto;
+	margin: auto;
+	float:auto;
+	width:50%;
+	font-family: "Open sans";
+	border: 5px solid blue;
+}
