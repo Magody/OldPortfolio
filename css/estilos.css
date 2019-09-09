@@ -107,6 +107,15 @@ body{
   transition: opacity 1.1s;
 }
 
+.submenu3{
+  position: absolute;
+  background: #344433;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.1s;
+}
+
 .submenu1 li a{
   display: block;
   padding: 15px;
@@ -124,6 +133,12 @@ body{
 
 .submenu1 li:hover .submenu2{
   z-index: 2;
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu2 li:hover .submenu3{
+  z-index: 3;
   visibility: visible;
   opacity: 1;
 }

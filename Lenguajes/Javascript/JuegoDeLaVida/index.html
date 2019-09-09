@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Juego de la vida</title>
+		<style>
+			h1{
+			color: white;
+			text-align: center;
+			
+			}
+			
+			h3{
+			color: white;
+			text-align: center;
+			
+			}
+			
+			h4{
+			color: white;
+			text-align: center;
+			background-color: black;
+			}
+			
+			canvas{
+				margin-left: 0px;
+				margin-top: 0px;
+				background-color: white;
+			}
+			
+			body{
+				background-image: url("../../../media/fondo_AI.jpg");
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<center>
+			<h3 id="generacion_actual">Juego de la vida, el juego de cero jugadores (bueno, casi)</h2>
+			<h4 id="indicaciones">Haga click en el espacio en negro para aumentar celulas a su gusto, puede arrastrar el mouse para agregarlas más rápido. Puede hacerlo en cualquier momento<br>Abajo escriba cuál será la generacion máxima y el retardo entre cada generación. Pulse en iniciar cuando esté listo.</h4>
+			<canvas width="1100" height="400" id="dibujito"></canvas>
+			
+				
+			<br>
+			<label style="color:white;background-color: black;">Generaciones: <input type="number" id="generaciones" value="100"></input></label>
+			<br>
+			<label style="color:white;background-color: black;">Duración de cada generacion(milisegundos): <input type="number" id="delay" value="30"></input></label>
+			<br>
+			<input type="button" id="iniciar" value="Iniciar"></input><input type="button" id="limpiar" value="Limpiar espacio de celulas"></input><input type="button" id="reiniciar" value="Reiniciar"></input>
+			<br>
+				
+				
+			
+			
+		</center>
+		
+		
+		<h4>Reglas:
+		<br>
+		Una célula viva se representa con color verde, las muertas con color negro y el borde del mundo con un color rojo
+		<br>
+		1.- Si una célula viva está acompañada por 2 o 3 células vivas entonces sobrevivirá a la siguiente generación.
+		<br>
+		2.- Si una célula muerta está acompañada por 3 células exactamente entonces renacerá.
+		<br>
+		3.- Si una célula viva está acompañada por menos de 2 células vivas morirá de soledad, por el contrario si está acompañada por más de 3 células también morirá, pero por sobrepoblación.
+		<br><br>
+		Ejemplo, sea el 1 una célula viva, 0 una célula muerta y un 2 una célula renacida:
+		<br><br>
+		Generación 1-------Generación 2<br>
+		 1101-------------->0120<br>
+		 0010-------------->2011<br>
+		 0100-------------->0000
+		
+		
+		</h4>
+		
+		<center><a href="../../../index.html"><button>Volver al inicio</button></a></center>
+		
+		
+		<script type="text/javascript" src="main.js">
+		</script>
+		
+	</body>
+
+</html>

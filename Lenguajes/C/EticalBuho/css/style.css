@@ -1,0 +1,43 @@
+body {
+    background-image: url("fsociety.jpg");   
+}
+
+#content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+   
+    color: red;
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+}
+
+p {
+    color:whitesmoke;
+    font-size: 24px;
+    font-family: Courier New, Courier, monospace;
+}
+
+h2 {
+   
+    color: red;
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+}
+  
+h3 {
+   
+    color: red;
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+}
+
+h4 {
+   
+    color: red;
+    font-size: 30px;
+    font-family: Courier New, Courier, monospace;
+}
+

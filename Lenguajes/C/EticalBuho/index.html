@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <title>Etical Buho</title>
+	<style>
+	.video2{
+	
+		  width:auto;
+		  height: auto;
+		  margin-bottom:100px;
+		  border: 5px solid green;
+		  z-index: 0;
+		}
+	</style>
+</head>
+
+<body style=text-align:justify;>
+    <h1 style=text-align:center;>ETICAL BUHO</h1>
+	<h1>Proyecto realizado en primer semestre por: <a href="https://github.com/Magody" target="_blank">Danny Díaz (Magody)</a> y Marquez Diego. En la pantalla de inicio ya se mostró un video con la ejecución de este pequeño juego y debajo tambien se pondrá el mismo. Aquí se anexará algunos datos extra.</h1>
+	
+	<br>
+	
+	<br>
+		<p>Temas: C, hacking, Allegro, MrRobot, Pokemon. Repositorio en GitHub: <a href="https://github.com/Magody/Etical-Buho-C-Programaci-n">https://github.com/Magody/Etical-Buho-C-Programaci-n1</a></p>
+	<br>
+	<p>El video respectivo comienza en el segundo 0:10 y termina en el 0:44</p>
+	<center><video playsinline autoplay muted controls class="video2">
+          <source src="presentacion.mp4" type="video/mp4">
+        </video></center>
+		
+    <h1>Descripcion</h1>
+    <p>
+        <strong><em>ETICAL BUHO</em></strong> es un juego basado en la famosa serie Mr.Robot acerca de un joven que trabaja
+        como ingeniero de seguridad informática y usa sus habilidades para proteger a las personas por las que se preocupa.
+        En <strong><em>ETICAL BUHO</em></strong> acercamos al jugador a una manera mas didactica de entender el "ethical
+        hacking" ademas de utilizar el manejo de archivos en el proceso.
+    </p>
+	
+	<br> 
+		<p>Haga clic en el boton de la derecha para ver la documentación completa.<a href="informe.pdf" target="_blank"><button>
+			Informe</button></a></p>
+		 
+    
+			
+    <h1>Libreria Allegro</h1>
+    <p>
+        Para crear este videojuego hemos utilizado la libreria Allegro esta es una biblioteca libre y de código abierto para la programación
+        de videojuegos desarrollada en lenguaje C. Allegro es un acrónimo recursivo de «Allegro Low Level Game Routines».La
+        biblioteca cuenta con funciones para gráficos, manipulación de imágenes, texto, sonidos, dispositivos de entrada
+        (teclado, ratón y mandos de juego) y temporizadores, así como rutinas para aritmética de punto fijo y acceso al sistema
+        de archivos.
+    </p>
+	
+	
+			
+	<br> 
+		<p>Haga clic en el siguiente botón para ver el tutorial de instalación de esta librería
+		 
+    <a href="allegro.html" target="_blank"><button>
+			Tutorial Allegro</button></a></p>
+	
+	<h1>0. Sprites</h1>
+
+    <p>
+        Muchos de los recursos fueron sacados de internet, de varios videojuegos. Dado que este juego no tienes fines comerciales solo los citamos: Stardew Valley, Final Fantasy V, Pokemon.
+    </p>
+    <img src="plantilla.jpg"/>
+	<img src="fondoCuarto.png"/>
+	
+    <h1>1.El Piano</h1>
+
+    <p>
+        Al acercarse al banco café del piano con las teclas <strong><em>(“j, i, l, k”)</em></strong> y una vez allí apretando
+        el botón <strong><em>“a”</em></strong>, aparecerá una pequeña ventana negra que le pedirá el título de la canción
+        que va a componer. Al escribir por ejemplo: “sinfonía” y posteriormente presionar ENTER, se creara un archivo .txt
+        en el que se almacenara la canción que va a tocar. Un menú aparecerá en la pantalla e indicara las teclas con las
+        que puede hacer sonar el piano. Para salir de ese estado deberá presionar <strong><em>ENTER</em></strong>.
+    </p>
+    <img src="notas.jpg" alt="musica">
+
+    <h2>2.La Computadora</h2>
+
+    <p>
+        Al acercarse al banco azul y presionar ‘a’ se abrirá un pequeño simulador de Windows.
+    </p>
+    <p>
+        Para salir del mismo deberá darse clic izquierdo al círculo de la parte inferior izquierda con el logo de Windows y posteriormente
+        darle clic a “apagar”. (Si se dio clic por error en ese lugar se puede eliminar ese menú dando clic nuevamente en
+        el círculo con el logo de Windows)
+    </p>
+    <img src="pc.jpg" alt="pc gamer">
+    <p>
+        En el computador abran 4 programas funcionales:
+        <h1>-Un bloc de notas</h1>
+        <p>Este programa permite guardar informacion de manera rapida.</p>
+        <p>Al dar clic izquierdo sobre el bloc, podremos escribir. Primero nos pedirá un título, ingresamos el título corto
+            deseado y pulsamos ENTER. Nos generara un archivo .txt con ese nombre.(Todo lo de archivos se generara y manejara
+            en la carpeta “archivos” del proyecto.
+        </p>
+        <p>
+            Desde ese momento todo lo que se escriba quedara documentado en el archivo creado. Parar salir debemos presionar ESCAPE.
+        </p>
+        <h2>-El programa "Play Poli Piano"</h2>
+        <p>
+            Este programa lee un archivo de texto y cada letra del mismo lo convierte en un sonido. Al dar clic sobre el programa tan
+            solo debemos ingresar el título del archivo que queramos leer de la carpeta “archivos”. Ejemplo si nuestro archivo
+            se llama: “test.txt” y está en la carpeta archivos (proyecto CodeBlocks). Para reproducirlo simplemente debemos
+            escribir ‘test’ (sin las comillas). Una vez escrito, presionamos ENTER y comenzara a reproducirlo.
+			
+			<br>
+			En el video de la página de inicio se puede escuchar esto en ejecución.
+			<br>
+			El siguiente recurso gráfico es propiedad de los creadores de Final Fantasy V
+			
+        </p>
+	<img src="piano.png" />
+    <h3>SQL++</h3>
+        <p>Una base de datos es una colección de información organizada de forma que un programa de ordenador pueda seleccionar
+            rápidamente los fragmentos de datos que necesite. Una base de datos es un sistema de archivos electrónico.</p>
+			
+	<img src="sqlmas.bmp" />
+    <h4>fsociety</h4>
+        <p>
+            Este programa permite “crear scripts”. Mediante comandos sencillos. Al darle clic nos aparecerá una pantalla negra y nos
+            pedirá un titulo del script, lo ingresamos y nos genera un archivo .txt. Luego se escribe cuidadosamente los
+            comandos: -> /permutar [palabra] [palabra] Al escribir por ejemplo “/permutar a bc” nos imprimirá las posibles
+            combinaciones entre “abc”: abc,acb,bac,bca,cab,cba. Esta función nos permiirá buscar coincidencias entre palabras
+            y contraseñas hasta encontrar una coincidencia. O completar todas las permutaciones posibles.
+        </p>
+        <img src="permutar.jpg" alt="hacker1">
+        <img src="mr robot.jpg" alt="hacker">
+        <p>
+            También puede interactuar con el CMD, ejemplo: Si después de agregar titulo escribimos exactamente “/system mode 200” y luego
+            pulsamos ENTER, veremos cómo nuestro CMD se agranda.
+        </p>
+        <img src="cmd.jpg" alt="izi">
+        <p>
+            • Si escribimos “/system color 0a” nos cambiara el color de las letras que aparecen en el CMD.
+        </p>
+        <p>
+            • Si escribimos “/system start [archivo]” nos ejecutara el archivo que tengamos en el directorio por defecto,es necesario
+            ubicar la consola de comandos a través de “cd documents…” hasta llegar a la capeta que deseemos.Otra utilidad
+            de “start” es abrir paginas web “/system start www.google.com” nos ejecutara la pagina de google.
+        </p>
+        <p>
+            • Si escribimos “/system ping www.facebook.com” estaremos haciendo una petición de servicio, esto nos abre una idea de lo
+            que se hace en un ataque de negación de servicio (ataque DDoS) • Si escribimos “/system copy /b 1.jpg+2.rar 3.jpg”
+            nos copiara estos archivos dentro de un nuevo archivo es decir, podremos meter archivos dentro de una imagen
+        </p>
+        <p>
+            • Si escribimos “/system fc /b 1.txt 3.txt” nos comparara dos archivos en modo binario y nos dira sus diferencias.
+            <a href="https://ss64.com/nt/fc.html">Vease sus variantes</a>
+        </p>
+		<img src="scripter.bmp" />
+    </p>
+    <h4>Webgrafia en el informe <a href="informe.pdf" target="_blank"><button>
+			Informe</button></a></h4>
+    
+	<br>
+	<br>
+	<center><a href="../../../index.html"><button>Volver al inicio</button></a></center>
+</body>
+
+</html>
+Escuela Politecnica Nacional 2017-2018 Ingenieria En Sistemas y de Computacion.

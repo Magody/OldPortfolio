@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tutorial Allegro</title>    
+	<style>
+			
+		*{
+		
+			color: white;
+		}
+		body{
+			background-image: url("../../../media/nubes.jpg");
+		}
+		
+		
+		button{
+			color: black;
+		}
+		
+	</style>
+  </head>
+  <body>
+
+    <center>
+      <section id="presentacion">
+        <div class="presentacion1">
+          
+		  <h1>Tutorial Allegro para codeblocks</h1>
+		  
+		  <br> 
+			Click en el botón de la derecha para descargar la librería: 
+		 
+		   <a href="allegro.rar" target="_blank"><button>
+			Descargar librería allegro</button></a>
+		  
+          <br>
+           <h2>Video tutorial instalacion
+https://www.youtube.com/watch?v=xjQHQzhmOQ8</h2>
+
+<h3>
+Pasos:
+<br><br>
+1.- en la carpeta: allegro/bin existen 3 archivos .dll, copiarlos en la carpeta Windows de disco local C. En mi caso esta en:
+C:\Windows<br>
+<br>
+2.- en la carpeta: allegro/include hay una carpeta y dos archivos headers "allegro winalleg" copiamos todo (carpeta y los dos archivos) y los pegamos dentro de donde hayamos instalado codeblocks, en la carpeta MinGW/include<br>
+En mi caso la carpeta en que pegaremos todo esta en:<br>
+<br>
+C:\Program Files (x86)\CodeBlocks\MinGW\include<br>
+<br>
+3.- en la carpeta: allegro/lib hay varios archivos .a, copiamos todo y los pegamos en una nueva carpeta que crearemos nosotros llamada "Allegro" (sin comillas) en este sitio:<br>
+donde tenemos instalado codeblocks, en la carpeta MinGW/lib<br><br>
+
+En mi caso la carpeta en que pegaremos todo sera:<br>
+<br>
+C:\Program Files (x86)\CodeBlocks\MinGW\lib\Allegro
+(la carpeta Allegro la cree yo, antes no existia)<br><br>
+
+
+
+Ahora viene lo importante
+<br><br>
+1.-Abrimos el Codeblocks y nos dirigimos a la pestaña Settings/Compiler and Debugger luego a linker Settings<br><br>
+2.-Nos dirigimos a "Add" y luego buscamos el directorio en que copiamos los archivos .a(dando click al boton con los 3 puntos seguidos ...) en mi caso el directorio hallado es:<br><br>
+
+C:\Program Files (x86)\CodeBlocks\MinGW\lib\Allegro<br><br>
+
+seleccionamos los 7 archivos y clickeamos en "abrir" luego en "ok"
+<br>
+3.-Nos habíamos dirigido a linker settings, justo a lado hay otra pestaña llamada Search directories, le damos click y luego en el boton de abajo "Add" , de nuevo click a los tres puntos seguidos y en el recuadro que nos aparece buscamos la carpeta include de nuestro codeblocks, en mi caso es:<br><br>
+C:\Program Files (x86)\CodeBlocks\MinGW\include<br>
+
+seleccionamos solo la carpeta include y le damos click en "Aceptar" luego en "ok" y luego en "ok"<br><br>
+
+Ahora ya estaria lista la instalacion
+</h3>
+		
+		
+		</div>
+      </section>    
+	</center>
+	
+	<br>
+	<br>
+	<center><a href="index.html"><button>Regresar a Etical Buho</button></a>
+	
+	<a href="../../../index.html"><button>Volver al inicio</button></a></center>
+		
+
+  </body>
+</html>
