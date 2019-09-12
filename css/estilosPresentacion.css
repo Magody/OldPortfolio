@@ -6,8 +6,9 @@
 }
 
 body{
-  background-image:  url('../media/fondo1.jpg');
+  background-image:  url('../media/fondoPresentacion.jpg');
   background-repeat: repeat;
+  
 }
 
 .textoPresentacion{
@@ -16,7 +17,7 @@ body{
 	border: auto;
 	margin: auto;
 	float:auto;
-	width:50%;
+	width:80%;
 	font-family: "Open sans";
-	border: 5px solid blue;
+	border: 5px solid green;
 }
