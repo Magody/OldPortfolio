@@ -1,0 +1,1 @@
+Hay información de R almacenada de forma oculta en la tarjeta lenguajes, importante revisar cuando me centre en el análisis multidimensional.
